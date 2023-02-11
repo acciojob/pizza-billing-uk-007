@@ -9,17 +9,15 @@ public class Main {
     dp.addTakeaway();
     System.out.println(dp.getBill());
 
-    Pizza p = new Pizza(true);
-    p.addExtraCheese();
+    Pizza p = new Pizza(false);
+
     p.addExtraToppings();
-    p.addTakeaway();
+    //p.addTakeaway();
+    p.addExtraCheese();
+    System.out.println(p.getBill());
     System.out.println(p.getBill());
 
-    DeluxePizza p1 = new DeluxePizza(false);
-    p1.addExtraCheese();
-    p1.addTakeaway();
-    System.out.println(p1.getBill());
-    System.out.println(p1.getBill());
+
 
 
 
