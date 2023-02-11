@@ -19,6 +19,7 @@ public class Main {
     p1.addExtraCheese();
     p1.addTakeaway();
     System.out.println(p1.getBill());
+    System.out.println(p1.getBill());
 
 
 
