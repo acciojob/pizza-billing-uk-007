@@ -9,11 +9,18 @@ public class Main {
     dp.addTakeaway();
     System.out.println(dp.getBill());
 
-    Pizza p = new Pizza(false);
+    Pizza p = new Pizza(true);
     p.addExtraCheese();
     p.addExtraToppings();
     p.addTakeaway();
     System.out.println(p.getBill());
+
+    DeluxePizza p1 = new DeluxePizza(false);
+    p1.addExtraCheese();
+    p1.addTakeaway();
+    System.out.println(p1.getBill());
+
+
 
 
   }
