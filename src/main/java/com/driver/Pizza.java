@@ -17,8 +17,61 @@ public class Pizza {
     private Boolean isExtraToppingAdded;
 
 
+    public void setPrice(int price) {
+        this.price = price;
+    }
 
+    public Boolean getVeg() {
+        return isVeg;
+    }
 
+    public void setVeg(Boolean veg) {
+        isVeg = veg;
+    }
+
+    public void setBill(String bill) {
+        this.bill = bill;
+    }
+
+    public Boolean getBillCreated() {
+        return isBillCreated;
+    }
+
+    public void setBillCreated(Boolean billCreated) {
+        isBillCreated = billCreated;
+    }
+
+    public Boolean getTakeAway() {
+        return isTakeAway;
+    }
+
+    public void setTakeAway(Boolean takeAway) {
+        isTakeAway = takeAway;
+    }
+
+    public int getToppings() {
+        return toppings;
+    }
+
+    public void setToppings(int toppings) {
+        this.toppings = toppings;
+    }
+
+    public Boolean getExtraCheeseAdded() {
+        return isExtraCheeseAdded;
+    }
+
+    public void setExtraCheeseAdded(Boolean extraCheeseAdded) {
+        isExtraCheeseAdded = extraCheeseAdded;
+    }
+
+    public Boolean getExtraToppingAdded() {
+        return isExtraToppingAdded;
+    }
+
+    public void setExtraToppingAdded(Boolean extraToppingAdded) {
+        isExtraToppingAdded = extraToppingAdded;
+    }
 
     public Pizza(Boolean isVeg){
         this.isVeg = isVeg;
