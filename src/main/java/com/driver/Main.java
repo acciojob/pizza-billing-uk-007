@@ -11,7 +11,7 @@ public class Main {
 
     Pizza p = new Pizza(false);
 
-    p.addExtraToppings();
+    p.addExtraToppings()
     //p.addTakeaway();
     p.addExtraCheese();
     System.out.println(p.getBill());
